@@ -1,0 +1,45 @@
+------------------------BUỔI 1: 29/10/2024-----------------------------
+/* 
+	* Phần 1- KHÁI NIỆM VỀ BIẾN
+	* 1. Biến: dùng để lưu trữ giá trị
+	* 2. Biến sẽ dc lưu trên RAM có khi CT chạy, mất CT dừng
+	* 3. Biến cần có kiểu dữ liệu
+	* 
+	* Phần 2- KIỂU DỮ LIỆU
+	* - Logic: boolean trả về giá trị True/False, trong C là 1/0
+	* - Ký tự: char (lưu 1 ký tự)
+	* - Số nguyên: short, int, long
+	* - Số thực: float, double
+	* - Chuỗi: String (trong C ko có)
+	* 
+	* Phần 3- KHAI BÁO BIẾN
+	* - C1: <kiểu dữ liệu> <tên biến>;
+	* - C2: <kiểu dữ liệu> <tên biến> = <giá trị>;
+	* 
+	* Phần 4- QUY TẮC ĐẶT TÊN BIẾN
+	* Lưu ý: ko dc bắt đầu bởi số, ko phải là keyword: 
+	* int, main, return, double,...
+	* * cách đặt tên
+	* - normal case: hoten
+	* - camel case: hoTen # HoTen => Pascal 
+	* - under score: ho_ten
+	*/
+
+/* CÁCH IN RA MÀN HÌNH
+	* - printf("chuỗi");//in 1 chuỗi ra màn hình
+	* - printf("%d",<tên biến>);
+	* //in giá trị của biến ra màn hình
+	* - %d: số nguyên	-%c: ký tự
+	* - %f: số thực float		-%lf: double
+	* - %s: chuỗi String
+	*/
+
+/* BTVN Buổi 1: Khai báo biến 
+- In ra màn hình: “Xin chao Nhan Vien FPT”. 
+- Khai báo biến maSo có kiểu int, đồng thời gán giá trị cho biến maSo là 123. 
+- Khai báo biến tuoi có kiểu int, đồng thời gán giá trị cho biến maSo là 250. 
+- Khai báo biến gioiTinh có kiểu bool, đồng thời gán giá trị cho biến gioiTinh là 0 hoặc 1.
+- Khai báo biến luong có kiểu double. Sau đó gán giá trị cho biến luong là 13.840.000. 
+- Khai báo biến bac có kiểu ký tự, đồng thời gán giá trị cho biến bac là A hoặc B hoặc C.
+- In toàn bộ các biến đã khai báo ra màn hình.
+*/
