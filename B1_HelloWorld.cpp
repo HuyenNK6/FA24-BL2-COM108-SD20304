@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(){
 	//ket thuc moi dong code la dau ;
@@ -25,6 +26,12 @@ int main(){
 	printf("Nam sinh = %d \n", namSinh);
 	printf("Diem Toan = %lf - Van= %lf \n", diemToan, diemVan); 
 	//%lf : chu l ko phai so 1
+	
+	bool gioiTinh = 1;
+	gioiTinh= 0;
+	printf("Gioi tinh:  %d \n", gioiTinh);
+	char bac = 'A';
+	printf("Bac: %c", bac);
 	
 	return 0;
 }

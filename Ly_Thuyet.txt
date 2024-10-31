@@ -37,9 +37,51 @@
 /* BTVN Buổi 1: Khai báo biến 
 - In ra màn hình: “Xin chao Nhan Vien FPT”. 
 - Khai báo biến maSo có kiểu int, đồng thời gán giá trị cho biến maSo là 123. 
-- Khai báo biến tuoi có kiểu int, đồng thời gán giá trị cho biến maSo là 250. 
+- Khai báo biến tuoi có kiểu int, đồng thời gán giá trị cho biến tuoi là 250. 
 - Khai báo biến gioiTinh có kiểu bool, đồng thời gán giá trị cho biến gioiTinh là 0 hoặc 1.
 - Khai báo biến luong có kiểu double. Sau đó gán giá trị cho biến luong là 13.840.000. 
 - Khai báo biến bac có kiểu ký tự, đồng thời gán giá trị cho biến bac là A hoặc B hoặc C.
 - In toàn bộ các biến đã khai báo ra màn hình.
+*/
+------------------------BUỔI 2: 31/10/2024-----------------------------
+/* HẰNG SỐ
+	- Hằng số (constant) hướng đến những giá trị cố định mà chương trình không thể thay đổi trong quá trình thực thi.
+	- Hằng số có thể là một kiểu dữ liệu bất kỳ nào như kiểu dữ liệu: số nguyên, số thực, ký tự hay chuỗi.
+	- Ví dụ:
+		+ Số PI = 3.141592
+		+ Số C = 3*10^8
+		+ e = 2.71828	
+	- Cách định nghĩa hằng số
+		+ C1: #define ten_hang gia_tri 
+		+ C2: const kieu_du_lieu ten_hang = gia_tri;
+	- Trong đó:
+		+ #define là một chỉ thị tiền xử lý (preprocessor directive), không phải là một câu lệnh trong ngôn ngữ C. Vì là chỉ thị tiền xử lý, #define không kiểm tra kiểu dữ liệu và cũng không chiếm dung lượng bộ nhớ khi chương trình chạy. -> Xử lý trước khi biên dịch-> debug Khó khăn hơn
+		+ const là một từ khóa trong ngôn ngữ C, định nghĩa các biến mà giá trị không thể thay đổi sau khi khởi tạo. const có kiểm tra kiểu dữ liệu và có thể sử dụng cùng với bất kỳ kiểu dữ liệu nào như int, float, char, v.v. -> Xử lý trong quá trình biên dịch-> debug Dễ dàng hơn
+	- Ví dụ:
+		#define CHIEUDAI 15
+		const int CHIEURONG = 12;
+*/
+/*
+	- hàm scanf: Nhập 1 giá trị từ bàn phím, và lưu giá trị đó vào trong 1 biến -> xác định được định dạng dữ liệu
+	- getchar() thường được sử dụng để xóa ký tự xuống dòng (\n) còn lại trong bộ đệm sau khi dùng scanf(). Điều này giúp tránh lỗi do ký tự \n không mong muốn còn sót lại.
+*/
+
+/* BTVN
+	- Bài tập 1: In ra thông tin người dùng
+Yêu cầu: Viết chương trình yêu cầu người dùng nhập vào tuổi (số nguyên), chiều cao (số thực, tính bằng mét) và ký tự viết tắt tên đầu tiên của họ. Sau đó, in ra các thông tin vừa nhập theo định dạng:
+		Tuổi: <tuổi>
+		Chiều cao: <chiều cao>
+		Viết tắt tên: <ký tự>
+
+	- Bài tập 2: Tính điểm trung bình
+Yêu cầu: Viết chương trình yêu cầu người dùng nhập vào mã số sinh viên (số nguyên), điểm trung bình (số thực) và xếp loại học lực (ký tự, ví dụ: A, B, C, v.v.). Sau đó, in ra các thông tin vừa nhập theo định dạng:
+		Mã số sinh viên: <mã số sinh viên>
+		Điểm trung bình: <điểm trung bình>
+		Xếp loại: <ký tự xếp loại>
+
+	- Bài tập 3: Thông tin sản phẩm
+Yêu cầu: Viết chương trình yêu cầu người dùng nhập vào mã sản phẩm (số nguyên), giá sản phẩm (số thực) và ký hiệu đơn vị tiền tệ (ký tự, ví dụ: S cho USD, ₫ cho VND). Sau đó, in ra các thông tin vừa nhập theo định dạng:
+		Mã sản phẩm: <mã sản phẩm>
+		Giá: <giá sản phẩm>
+		Đơn vị tiền tệ: <ký hiệu đơn vị>
 */
