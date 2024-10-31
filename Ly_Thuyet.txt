@@ -68,9 +68,10 @@
 
 /* BTVN
 	- Bài tập 1: In ra thông tin người dùng
-Yêu cầu: Viết chương trình yêu cầu người dùng nhập vào tuổi (số nguyên), chiều cao (số thực, tính bằng mét) và ký tự viết tắt tên đầu tiên của họ. Sau đó, in ra các thông tin vừa nhập theo định dạng:
+Yêu cầu: Viết chương trình yêu cầu người dùng nhập vào tuổi (số nguyên), chiều cao (số thực, tính bằng mét), giới tình (bool) và ký tự viết tắt tên đầu tiên của họ. Sau đó, in ra các thông tin vừa nhập theo định dạng:
 		Tuổi: <tuổi>
 		Chiều cao: <chiều cao>
+		Giới tính: <giới tính>
 		Viết tắt tên: <ký tự>
 
 	- Bài tập 2: Tính điểm trung bình
