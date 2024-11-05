@@ -1,4 +1,4 @@
-------------------------BUỔI 1: 29/10/2024-----------------------------
+------------------------BUỔI 1: BIẾN-----------------------------
 /* 
 	* Phần 1- KHÁI NIỆM VỀ BIẾN
 	* 1. Biến: dùng để lưu trữ giá trị
@@ -43,7 +43,7 @@
 - Khai báo biến bac có kiểu ký tự, đồng thời gán giá trị cho biến bac là A hoặc B hoặc C.
 - In toàn bộ các biến đã khai báo ra màn hình.
 */
-------------------------BUỔI 2: 31/10/2024-----------------------------
+------------------------BUỔI 2: NHẬP XUẤT-----------------------------
 /* HẰNG SỐ
 	- Hằng số (constant) hướng đến những giá trị cố định mà chương trình không thể thay đổi trong quá trình thực thi.
 	- Hằng số có thể là một kiểu dữ liệu bất kỳ nào như kiểu dữ liệu: số nguyên, số thực, ký tự hay chuỗi.
@@ -85,4 +85,81 @@ Yêu cầu: Viết chương trình yêu cầu người dùng nhập vào mã s�
 		Mã sản phẩm: <mã sản phẩm>
 		Giá: <giá sản phẩm>
 		Đơn vị tiền tệ: <ký hiệu đơn vị>
+*/
+------------------------BUỔI 3: TOÁN TỬ-----------------------------
+/*
+	Khái niệm
+ - Tạo thành từ các toán tử (Operator) và các toán hạng (Operand).
+ - Toán tử tác động lên các giá trị của toán hạng và cho giá trị có kiểu nhất định.
+ - Toán tử: +, –, *, /, %….
+ - Toán hạng: hằng (PI), biến (toanTu1, toanTu2), lời gọi hàm...
+*/
+/*
+	* 4 loại toán tử
+	* 1. Toán tử số học:  + - * / % ++ --
+	*		/ : phép chia lấy nguyên
+	*		% : phép chia lấy dư
+	*		++: tăng lên 1 đơn vị
+	*		--: giảm đi 1 đơn vị
+ Trong đó: 
+ 	* Chỉ có một toán hạng trong biểu thức.
+ 	* ++(tăng 1 đơn vị), -- (giảm 1 đơn vị)
+ 	* Đặt trước toán hạng
+ 	* Vídụ: ++x hay --x: thực hiện tăng/giảm trước.
+ 	* Đặt sau toán hạng
+ 	* Vídụ: ++ hay x--: thực hiện tăng/giảm sau.
+
+	* 2. Toán tử so sánh: > < >= <= == !=
+		- > < : lớn hơn/ nhỏ hơn
+		- >= <=: lớn hơn hoặc bằng / nhỏ hơn hoặc bằng
+		- ==: so sánh bằng
+		- !=: khác 
+	* 3. Toán tử logic: && || !
+	*	&&: Trả về giá trị true khi tất cả biểu thức tham gia biểu thức có giá trị true -> yêu cầu tất cả phải đúng
+	*	||: Trả về giá trị true khi có 1 biểu thức tham gia biểu thức có giá trị là true -> 1 trong số đó đúng
+	*	! : phủ đinh giá trị: true => false, ngc lại
+	* 4. toán tử gán: =  += -= *= /= %=
+*/
+
+/*
+	* Toán tử ba ngôi
+	* <biểu thức điều kiện> ? <giá trị đúng>: <giá trị sai>;
+	*=> kiểu dữ liệu
+*/
+
+/* BTVN
+* Bài tập 1: Toán tử số học
+Đề bài: Viết chương trình nhập vào hai số nguyên từ bàn phím và tính:
+	- Tổng của hai số.
+	- Hiệu của hai số.
+	- Tích của hai số.
+	- Thương của hai số (lấy 2 số sau dấu phẩy).
+	- Phần dư của phép chia.
+Yêu cầu: In ra kết quả của từng phép tính.
+
+* Bài tập 2: Toán tử quan hệ
+Đề bài: Viết chương trình nhập vào hai số nguyên từ bàn phím và kiểm tra xem:
+	- Số thứ nhất có lớn hơn số thứ hai không.
+	- Số thứ nhất có nhỏ hơn số thứ hai không.
+	- Hai số có bằng nhau không.
+Yêu cầu: Sử dụng các toán tử quan hệ để kiểm tra và in kết quả dạng true hoặc false.
+
+* Bài tập 3: Toán tử logic
+Đề bài: Viết chương trình nhập vào ba số nguyên từ bàn phím. Kiểm tra xem ba số đó có đồng thời lớn hơn 0 hay không.
+Yêu cầu: Sử dụng toán tử logic && để kiểm tra và in ra kết quả dạng true hoặc false.
+
+* Bài tập 4: Toán tử gán
+Đề bài: Viết chương trình nhập vào một số nguyên từ bàn phím. Sau đó, sử dụng toán tử gán cộng (+=), gán trừ (-=), gán nhân (*=), và gán chia (/=) để thực hiện các phép tính sau:
+	- Tăng giá trị của số đó lên 10.
+	- Giảm giá trị của số đó xuống 5.
+	- Nhân giá trị của số đó với 3.
+	- Chia giá trị của số đó cho 2.
+Yêu cầu: In ra kết quả sau mỗi phép gán.
+
+* Bài tập 5: Toán tử tăng/giảm
+Đề bài: Viết chương trình nhập vào một số nguyên từ bàn phím, sau đó thực hiện:
+	- Tăng số đó lên 1 và in ra giá trị sau khi tăng.
+	- Giảm số đó đi 1 và in ra giá trị sau khi giảm.
+	- In giá trị của số đó trước và sau khi sử dụng toán tử tăng (++) ở vị trí trước (++a)và sau (a++).
+Yêu cầu: Quan sát sự khác biệt khi sử dụng toán tử tăng trước và sau.
 */
