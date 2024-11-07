@@ -137,7 +137,7 @@ Yêu cầu: Viết chương trình yêu cầu người dùng nhập vào mã s�
 	- Phần dư của phép chia.
 Yêu cầu: In ra kết quả của từng phép tính.
 
-* Bài tập 2: Toán tử quan hệ
+* Bài tập 2: Toán tử so sánh
 Đề bài: Viết chương trình nhập vào hai số nguyên từ bàn phím và kiểm tra xem:
 	- Số thứ nhất có lớn hơn số thứ hai không.
 	- Số thứ nhất có nhỏ hơn số thứ hai không.
@@ -163,3 +163,74 @@ Yêu cầu: In ra kết quả sau mỗi phép gán.
 	- In giá trị của số đó trước và sau khi sử dụng toán tử tăng (++) ở vị trí trước (++a)và sau (a++).
 Yêu cầu: Quan sát sự khác biệt khi sử dụng toán tử tăng trước và sau.
 */
+------------------------BUỔI 4: CẤU TRÚC RẼ NHÁNH-----------------------------
+/*
+	* 1. CẤU TRÚC IF
+	*	if (điều kiện){
+	*			//thực hiện công việc
+	*	}
+	* 2. CẤU TRÚC IF- ELSE
+	*	if (điều kiện){
+	*			//thực hiện công việc 1
+	*	}else{
+	*			//thực hiện công việc 2
+	*	}
+	* 3. CẤU TRÚC IF- ELSE-IF
+	*	if (điều kiện 1){
+	*			//thực hiện công việc 1
+	*	}else if (điều kiện 2){
+	*			//thực hiện công việc 2
+	*	}else if (điều kiện 3){
+	*			//thực hiện công việc 3
+	*	}else {
+	*			//thực hiện công việc n
+	*	}
+	*/
+	//switch-case
+	/*
+	* switch (<input>){
+	*		case <giá trị 1>:
+	*			//thực hiện công việc
+	*			//break; => thoát khỏi switch-case
+	*		case ...
+	*		default:
+	*			//thực hiện cv=> nếu ko đúng các case trên
+	* }
+	*/
+	/*Bài tập trên lớp
+	* Bài 1: Nhập 1 số nguyên từ bàn phím sau đó kiểm tra số đó là số nguyên dương hay nguyên âm.
+	* Bài 2: Xây dung chương trình nhập vào 1 số nguyên và kiểm tra tính chẵn lẻ của số nguyên đó
+	* Bài 3: Xây dựng chương trình tính học lực của sinh viên theo điểm trung bình
+	  - Nhập 3 điểm toán, văn, anh-> tính Trung bình
+	  - In ra màn hình 3 điểm và điểm TB
+	  - Đánh giá xếp loại:
+ 		+ Nếu điểm>=9: xuất sắc
+ 		+ Nếu 9 > điểm>=8: giỏi
+ 		+ Nếu 8 > điểm>=7: khá
+		+ Nếu 7 > điểm>=5: trung bình
+ 		+ Nếu 5 > điểm>=3: yếu
+ 		+ Ngượclại: kém
+ 	  - Output: hiển thị học lực của sinh viên
+	*/
+	/** BTVN
+	* Bài tập 1: Kiểm tra số tiền của bạn
+	Viết chương trình yêu cầu người dùng nhập số tiền (số thực), sau đó kiểm tra và in ra thông báo :
+		- Nếu số tiền >30 (triệu): thông báo "mua Iphone 16"
+		- Ngược lại: thông báo "hết tiền"
+
+	* Bài tập 2: So sánh ba số
+	Viết chương trình nhận ba số nguyên từ người dùng và sử dụng cấu trúc if-else-if để xác định số lớn nhất trong ba số này.
+
+	* Bài tập 3: Kiểm tra độ tuổi
+	Viết chương trình yêu cầu người dùng nhập tuổi của họ. Nếu tuổi dưới 18, in ra "Vị thành niên"; từ 18 đến 60 in ra "Người lớn"; và trên 60 thì in ra "Người cao tuổi".
+
+
+	* Bài tập 4: Tính tiền điện
+	Viết chương trình yêu cầu người dùng nhập số điện đã tiêu thụ (kWh). Dựa vào số điện tiêu thụ, tính tiền điện theo quy định sau:
+
+	- Dưới 50 kWh: 1.500 đồng/kWh
+	- Từ 50 đến 100 kWh: 2.000 đồng/kWh
+	- Trên 100 kWh: 3.000 đồng/kWh
+
+
+	*/

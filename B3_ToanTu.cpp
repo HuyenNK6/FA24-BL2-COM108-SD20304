@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
+	//toan tu
 	int a =5, b=2;
 	int c = 5/2; //chia lay nguyen
 	int d = 5%2; //chia lay du
@@ -36,7 +37,7 @@ int main(){
     ////toan tu gan
     int i = 3;
     int j =0;
-	j+= i;
+	j+= i; //tuong ung: j = j+i;
     printf("j= %d \n", j);
 	return 0;
 }
