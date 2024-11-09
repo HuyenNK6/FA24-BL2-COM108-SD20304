@@ -1,0 +1,25 @@
+---------------ĐỀ LUYỆN TẬP 1------------------
+Xây dựng file chứa hàm Main.
+Xây dựng Menu tổ chức chương trình bao gồm các bài sau.
+Menu in ra như sau 
++--------------------------Menu------------------------+
+1. Bài 1: kiểm tra tiền
+2. Bài 2: so sánh  3 số
+3. Bài 3: Kiểm tra tuổi
+4. Bài 4: Tính tiền điện
+5.Thoát
++--------------------------------------------------------+
+
+	* Bài tập 1: Kiểm tra số tiền của bạn
+	Viết chương trình yêu cầu người dùng nhập số tiền (số thực), sau đó kiểm tra và in ra thông báo :
+		- Nếu số tiền >30 (triệu): thông báo "mua Iphone 16"
+		- Ngược lại: thông báo "hết tiền"
+	* Bài tập 2: So sánh ba số
+	Viết chương trình nhận ba số nguyên từ người dùng và sử dụng cấu trúc if-else-if để xác định số lớn nhất trong ba số này.
+	* Bài tập 3: Kiểm tra độ tuổi
+	Viết chương trình yêu cầu người dùng nhập tuổi của họ. Nếu tuổi dưới 18, in ra "Vị thành niên"; từ 18 đến 60 in ra "Người lớn"; và trên 60 thì in ra "Người cao tuổi".
+	* Bài tập 4: Tính tiền điện
+	Viết chương trình yêu cầu người dùng nhập số điện đã tiêu thụ (kWh). Dựa vào số điện tiêu thụ, tính tiền điện theo quy định sau:
+	- Dưới 50 kWh: 1.500 đồng/kWh
+	- Từ 50 đến 100 kWh: 2.000 đồng/kWh
+	- Trên 100 kWh: 3.000 đồng/kWh
