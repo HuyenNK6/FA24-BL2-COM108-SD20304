@@ -97,7 +97,7 @@ Yêu cầu: Viết chương trình yêu cầu người dùng nhập vào mã s�
 /*
 	* 4 loại toán tử
 	* 1. Toán tử số học:  + - * / % ++ --
-	*		/ : phép chia lấy nguyên
+	*		/ : phép chia -> nếu %d lấy nguyên
 	*		% : phép chia lấy dư
 	*		++: tăng lên 1 đơn vị
 	*		--: giảm đi 1 đơn vị

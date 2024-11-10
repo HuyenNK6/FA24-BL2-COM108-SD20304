@@ -23,3 +23,30 @@ Menu in ra như sau
 	- Dưới 50 kWh: 1.500 đồng/kWh
 	- Từ 50 đến 100 kWh: 2.000 đồng/kWh
 	- Trên 100 kWh: 3.000 đồng/kWh
+
+---------------ĐỀ LUYỆN TẬP 2------------------
+Xây dựng file chứa hàm Main.
+Xây dựng Menu tổ chức chương trình bao gồm các bài sau.
+Menu in ra như sau 
++--------------------------Menu------------------------+
+1. Bài 1: Kiểm tra năm nhuận
+2. Bài 2: Tính tiền lương
+3. Bài 3: Tính chỉ số BMI
+4. Bài 4: Kiểm tra 3 cạnh tam giác
+0.Thoát
++--------------------------------------------------------+
+	*BÀi 1: Kiểm tra năm nhuận: Nhập vào một năm bất kỳ, chương trình kiểm tra xem năm đó có phải là năm nhuận hay không (sử dụng điều kiện if-else và toán tử &&, ||).
+
+	*BÀI 2: Tính tiền lương theo giờ làm việc: Người dùng nhập số giờ làm việc. 
+Nếu số giờ <= 40 thì lương là số giờ nhân với 50, 
+nếu số giờ > 40 thì tính thêm 1.5 lần cho số giờ vượt mức 40.
+
+	*BÀI 3: Tính chỉ số BMI và đánh giá tình trạng sức khỏe: Yêu cầu người dùng nhập chiều cao (m) và cân nặng (kg) của mình. Tính chỉ số 	BMI theo công thức: BMI = cân nặng / chiều cao ^2​
+Sau đó, phân loại tình trạng sức khỏe dựa trên chỉ số BMI:
+	- BMI < 18.5: Thiếu cân
+	- 18.5 <= BMI < 24.9: Bình thường
+	- 25 <= BMI < 29.9: Thừa cân
+	- BMI >= 30: Béo phì
+	*BÀI 4: Nhập vào ba số nguyên dương a, b, c đại diện cho ba cạnh của một tam giác.
+Kiểm tra xem ba cạnh này có tạo thành một tam giác hợp lệ hay không.
+Xuất ra thông báo xác nhận nếu ba cạnh tạo thành một tam giác hoặc không phải tam giác.
