@@ -216,3 +216,42 @@ Yêu cầu: Quan sát sự khác biệt khi sử dụng toán tử tăng trướ
 	/** BTVN: Làm đề luyện tap 1
 
 	*/
+------------------------BUỔI 7: VÒNG LẶP-----------------------------
+/* 1. FOR
+	* FOR (khởi tạo; điều kiện; bước nhảy){
+	*		//thực hiện công việc
+	* }
+	* => lặp đi lặp lại cv nếu đk còn đúng
+	* => bước nhảy: tăng/ giảm đơn vị
+	*/
+/* 2. WHILE
+	* WHILE (ĐIỀU KIỆN){
+	*			//thực hiện code
+	*	}
+	* => nếu đk đúng=> tiếp tục thực hiện code
+	* Cách gõ: whi+ tab
+	*/
+/* 3. DO-WHILE
+	* DO {
+	*		//thực hiện code
+	* }WHILE (ĐIỀU KIỆN);
+	*  => thực hiện ít nhất 1 lần => cho dù đk có sai từ đầu
+	*  => kiểm tra điều kiện sau
+	*  => nếu đúng thì tiếp tục thực hiện công việc
+	* Cách gõ: do + tab
+	*/
+/* Bài tập trên lớp:
+	* BÀI 1: Nhập vào 1 số nguyên dương từ bàn phím. Dùng vòng lặp for in ra các số từ 1 đến số vừa nhập.
+	* BÀI 2: Nhập vào 1 số nguyên dương từ bàn phím. Dùng vòng lặp for in ra các số từ số vừa nhập về số 0.
+	* BÀI 3: Nhập vào 1 số nguyên dương (1-10) từ bàn phím -> kiểm tra if else. In ra bang cửu chương của số đó.
+	* BÀI 4: Nhập vào 1 số nguyên dương từ bàn phím. Dùng vòng lặp while để tính tổng các số từ 1 đến số vừa nhập.
+	* BÀI 5: Nhập vào 1 số nguyên dương từ bàn phím, chỉ cho phép nhập số từ 0-10. nếu sai yêu cầu nhập lại. Yêu cầu thực hiện ít nhat 1 lần.
+	* BÀI 6: Tạo menu switch case có sử dung vòng lặp cho 5 bài trên.
+*/
+/* BTVN : Tạo menu cho bài dưới đây. Sử dung switch case có kết hợp vòng lặp
+	* Bài 1: Tính tổng các số từ 1 đến n: Nhập vào một số nguyên dương n, dùng vòng lặp for để tính và in ra tổng các số từ 1 đến n.
+	* Bài 2: In các số chẵn trong khoảng từ 1 đến n: Nhập vào số nguyên dương n, sử dụng vòng lặp for hoặc while để in ra các số chẵn từ 1 đến n.
+	* Bài 3:Nhập tuổi từ bàn phím, tuổi yêu cầu từ 18 - 50 nếu sai yêu cầu nhập lại. Thực hiện it nhất 1 lần. Sử dung do-while
+	* Bài 4: Tính tổng các chữ số của một số nguyên dương: Nhập vào một số nguyên dương n, dùng vòng lặp do-while để tính và in ra tổng các chữ số của n.
+
+*/
