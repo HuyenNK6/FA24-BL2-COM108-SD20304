@@ -1,4 +1,5 @@
----------------ĐỀ LUYỆN TẬP 1------------------
+*************************************************************
+************************ĐỀ LUYỆN TẬP 1***********************
 Xây dựng file chứa hàm Main.
 Xây dựng Menu tổ chức chương trình bao gồm các bài sau.
 Menu in ra như sau 
@@ -24,7 +25,8 @@ Menu in ra như sau
 	- Từ 50 đến 100 kWh: 2.000 đồng/kWh
 	- Trên 100 kWh: 3.000 đồng/kWh
 
----------------ĐỀ LUYỆN TẬP 2------------------
+*************************************************************
+************************ĐỀ LUYỆN TẬP 2***********************
 Xây dựng file chứa hàm Main.
 Xây dựng Menu tổ chức chương trình bao gồm các bài sau.
 Menu in ra như sau 
@@ -50,3 +52,26 @@ Sau đó, phân loại tình trạng sức khỏe dựa trên chỉ số BMI:
 	*BÀI 4: Nhập vào ba số nguyên dương a, b, c đại diện cho ba cạnh của một tam giác.
 Kiểm tra xem ba cạnh này có tạo thành một tam giác hợp lệ hay không.
 Xuất ra thông báo xác nhận nếu ba cạnh tạo thành một tam giác hoặc không phải tam giác.
+
+*************************************************************
+************************ĐỀ LUYỆN TẬP 3***********************
+Xây dựng file chứa hàm Main.
+Xây dựng Menu tổ chức chương trình bao gồm các bài sau.
+Menu in ra như sau(sự lựa chọn được lặp lại đến khi chọn 0): 
++--------------------------Menu------------------------+
+1. Bài 1: tinh tổng
+2. Bài 2: tính học phí
+3. Bài 3: tính thuế
+0. Thoát CT
++--------------------------------------------------------+
+Mời chọn:
+Lưu ý: Tạo hàm cho từng bài và gọi hàm trong switch-case
+
+Bài 1:	Nhập vào 2 số nguyên dương a và b, tính tổng các số chia hết cho 4 trong khoảng từ a đến b.
+Bài 2: Tính học phí: nhập số kỳ học và học phí mỗi kỳ học từ bàn phím, tính học phí trên tổng số kỳ học.
+Bài 3: Nhập vào thu nhập cá nhân thuNhap (triệu VNĐ). Sử dụng if-else-if để tính thuế thu nhập dựa vào bảng sau để in ra số thuế cần nộp:
+	+ thuNhap <= 5: không chịu thuế
+	+ 5 < thuNhap <= 15: thuế 10%
+	+ 15 < thuNhap <= 30: thuế 20%
+	+ thuNhap > 30: thuế 30%
+*************************************************************
