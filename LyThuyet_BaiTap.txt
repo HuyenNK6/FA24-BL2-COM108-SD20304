@@ -309,13 +309,14 @@ Yêu cầu: Quan sát sự khác biệt khi sử dụng toán tử tăng trướ
 - Mảng là tập hợp các phần tử cùng kiểu dữ liệu.
 - Mảng có số lượng phần tử cố định và được cấp phát vùng nhớ liên tục.
 - Truy xuất các phần tử mảng bằng chỉ số, bắt đầu là 0
-- Cú pháp: <kiểu dữ liệu> <tên biến mảng> [<số lượng phần tử mảng>]
+- Cú pháp: 
+<kiểu dữ liệu> <tên biến mảng> [<số lượng phần tử mảng>]
 
 /* BÀI TẬP
 	* Bài 1: Khởi tạo 1 mảng có sẵn 6 phần tử: 3 8 1 2 9 6. Sau đó cập nhật giá trị phần tử đầu tiên = 10. in toàn bộ phần tử ra màn hình
 	* Bài 2: Nhập số lượng sinh viên, sau đó nhập mảng cân nặng của các Sinh viên đó từ bàn phím và in kết quả ra màn hình
 	* Bài 3: Nhập số lượng latop , sau đó nhập mảng giá tiền (float) của các laptop đó từ bàn phím và in kết quả ra màn hình
 	* Bài 4: Nhập số lượng phòng học , sau đó nhập mảng diện tích (double)của các phòng đó từ bàn phím và in kết quả ra màn hình
-	* Bài 4: Nhập số lượng xe máy , sau đó nhập mảng phân khối (int)của các xe máy đó từ bàn phím và in kết quả ra màn hình
+	* Bài 5: Nhập số lượng xe máy , sau đó nhập mảng phân khối (int)của các xe máy đó từ bàn phím và in kết quả ra màn hình
 
 */

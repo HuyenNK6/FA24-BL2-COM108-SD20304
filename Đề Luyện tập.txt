@@ -75,3 +75,31 @@ Bài 3: Nhập vào thu nhập cá nhân thuNhap (triệu VNĐ). Sử dụng if-
 	+ 15 < thuNhap <= 30: thuế 20%
 	+ thuNhap > 30: thuế 30%
 *************************************************************
+************************ĐỀ LUYỆN TẬP 4***********************
+*************************************************************
+Xây dựng file chứa hàm Main.
+Xây dựng Menu tổ chức chương trình bao gồm các bài sau.
+Menu in ra như sau(sự lựa chọn được lặp lại đến khi chọn 0): 
++--------------------------Menu------------------------+
+1. Bài 1: Sinh viên
+2. Bài 2: Nhân viên
+3. Bài 3: Điện thoại
+4. Bài 4: Động vật
+5. Bài 5: Người Yêu Cũ
+0. Thoát CT
+
+
++--------------------------------------------------------+
+Mời chọn: 
+Lưu ý: Tạo hàm cho từng bài và gọi hàm trong switch-case
+
+* Bài 1. Nhập n số lượng SV, sau đó yêu cầu Nhập 1 mảng Tuổi (int) của các nhân viên và xuất mảng ra màn hình.
+Thực hiện tính tổng các phần tử ở vị trí lẻ.
+* Bài 2. Nhập n số lượng Nhân viên, sau đó yêu cầu Nhập 1 mảng giờ làm (float) của các nhân viên và xuất mảng ra màn hình.
+Thực hiện Tính lương của Nhân viên tại vị trí chẵn theo công thức: lương = giờ làm * 150000.
+* Bài 3. Nhập n số lượng Điện thoại IP, sau đó yêu cầu Nhập 1 mảng dung lượng (int) của các điện thoại đó và xuất mảng ra màn hình.
+Nhập vào số dung lượng x và kiểm tra xem dung lượng x có tồn tại trong mảng hay không?
+* Bài 4. Nhập n số lượng động vật, sau đó yêu cầu Nhập 1 mảng cân nặng (float) của các động vat và xuất mảng ra màn hình.
+Tìm vị trí động vật có cân nặng lớn nhất.
+* Bài 5. Nhập n số lượng Người yêu cũ, sau đó yêu cầu Nhập 1 mảng chiều cao (float) của các NYC và xuất mảng ra màn hình.
+Tìm vị trí NYC có chiều cao thấp nhất.
