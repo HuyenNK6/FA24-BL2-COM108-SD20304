@@ -320,3 +320,23 @@ Yêu cầu: Quan sát sự khác biệt khi sử dụng toán tử tăng trướ
 	* Bài 5: Nhập số lượng xe máy , sau đó nhập mảng phân khối (int)của các xe máy đó từ bàn phím và in kết quả ra màn hình
 
 */
+------------------------BUỔI 13: CHUỖI-----------------------------
+- Chuỗi trong ngôn ngữ lập trình C thực chất là mảng một chiều của các ký tự mà kết thúc bởi một ký tự null '\0'.
+ - Chuỗi ký tự kết thúc bằng ký tự ‘\0’ (null)
+  -> Độ dài chuỗi = kích thước mảng– 1
+ - Kiểu char chỉ chứa được một ký tự. Để lưu trữ một chuỗi (nhiều ký tự) ta sử dụng mảng (một chiều) các ký tự.
+ Ví dụ: char hoten[30]; //// Dài 29 ký tự
+* Sử dụng hàm scanf với đặc tả “%s”
+ - Chỉ nhận các ký tự từ bàn phím đến khi gặp ký tự khoảng trắng hoặc ký tự xuống dòng.
+ - Chuỗi nhận được không bao gồm ký tự khoảng trắng và xuống dòng.
+* Sử dụng hàm gets
+ - Nhận các ký tự từ bàn phím đến khi gặp ký tự xuống dòng.
+ - Chuỗi nhận được là những gì người dùng nhập (trừ ký tự xuống dòng)
+
+/* Bài tập:
+ 	1. Nhập và xuất ra màn hình họ và tên NYC của bạn
+	2. Nhập và xuất ra màn hình tên môn học của bạn
+	3. Nhập và xuất ra màn hình tên động vật bạn yêu thích
+	4. Nhập và xuất ra màn hình địa chỉ của bạn
+	5. Nhập và xuất ra màn hình tên món ăn bạn yêu thích
+*/
