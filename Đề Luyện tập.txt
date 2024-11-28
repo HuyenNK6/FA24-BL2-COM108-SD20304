@@ -100,6 +100,6 @@ Thực hiện Tính lương của Nhân viên tại vị trí chẵn theo công 
 * Bài 3. Nhập n số lượng Điện thoại IP, sau đó yêu cầu Nhập 1 mảng dung lượng (int) của các điện thoại đó và xuất mảng ra màn hình.
 Nhập vào số dung lượng x và kiểm tra xem dung lượng x có tồn tại trong mảng hay không?
 * Bài 4. Nhập n số lượng động vật, sau đó yêu cầu Nhập 1 mảng cân nặng (float) của các động vat và xuất mảng ra màn hình.
-Tìm vị trí động vật có cân nặng lớn nhất.
+Tìm vị trí động vật có cân nặng lớn nhất & giá cân năng đó.
 * Bài 5. Nhập n số lượng Người yêu cũ, sau đó yêu cầu Nhập 1 mảng chiều cao (float) của các NYC và xuất mảng ra màn hình.
 Tìm vị trí NYC có chiều cao thấp nhất.
